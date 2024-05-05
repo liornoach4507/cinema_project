@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background_image.jpg'); /* הוספת תמונת רקע */
+    background-size: cover; /* התאמת התמונה לגודל החלון */
+    background-position: center; /* מיקום התמונה במרכז */
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+#content-container {
+    background-color: rgba(0, 0, 0, 0.6); /* שקיפות לרקע */
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    color: white;
+    text-align: center;
+    margin: 20px auto; /* יישור מרכזי באמצעות הסטייל margin */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#loginFormDiv, #registerFormDiv {
+    margin-bottom: 20px;
+}
+
+.message {
+    color: red;
+}
